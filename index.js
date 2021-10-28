@@ -38,8 +38,6 @@ document.getElementById("root").innerHTML = `
             </p>
             <a href="#" class="nav-links nav-cta-btn">Start for free</a>
         </div>
-       
-   
     <div class="hero-img-box">
         <img src="/img/hp-hero_2x.jpg" alt="" class="hero-img">
     </div>
