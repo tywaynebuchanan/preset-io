@@ -50,6 +50,7 @@ body{
     gap: 3.6rem;
     align-items: center;
     justify-content: space-evenly;
+  
 }
 
 .nav-links:visited, .nav-links:link{
@@ -67,6 +68,73 @@ body{
     color: var(--fontwhite);
     font-weight: 500;
 }
+.nav-sub-menu{
+    list-style: none;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+   
+}
+
+.nav-sub-links{
+    margin-bottom: 1rem;
+}
+
+.nav-sub-links:visited,.nav-sub-links:link{
+    font-size: var(--fontsize);
+    color: var(--fontcolor);
+    text-decoration: none;
+}
+
+.menu{
+    position: relative;
+    
+}
+
+.menu button {
+    background:none;
+    border:none;
+    font-family: "Barlow",sans-serif;
+    font-size: 1.6rem;
+    color:var(--fontcolor);
+    cursor: pointer;
+
+}
+.menu ul{
+position: absolute;
+background-color:white;
+margin-top: 10px;
+width: 150px;
+height: 150px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+opacity: 0;
+pointer-events: none;
+transition: all 0.4s ease;
+z-index: 0;
+}
+
+.menu .nav-sub-menu li{
+
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+}
+
+.menu .nav-sub-menu li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.menu button:hover + ul{
+    opacity: 1;
+    pointer-events: all;
+    z-index: 1;
+}
+
+/*******Section Hero*******/
 
 .section-hero
 {

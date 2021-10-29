@@ -9,17 +9,23 @@ document.getElementById("root").innerHTML = `
        <div class="nav-bar">
            <nav>
                 <ul class="nav-items">
-                    <li><a class = "nav-links" href="#">Product</a></li>
-                    <li><a class = "nav-links" href="#">Resources</a></li>
-                    <li><a class = "nav-links" href="#">Pricing</a></li>
-                    <li><a class = "nav-links" href="#">Company</a></li>
-                   </ul>
+                    <div><li><a class = "nav-links" href="#">Product</a></li></div>
+                    <div><li><a class = "nav-links" href="#">Resources</a></li></div>
+                   <div class="menu">
+                       <button>Pricing</button>
+                    <ul class="nav-sub-menu">
+                        <li><a class = "nav-sub-links" href="#">Resources</a></li>  
+                        <li><a class = "nav-sub-links" href="#">Resources</a></li>  
+                        <li><a class = "nav-sub-links" href="#">Resources</a></li>  
+                        <li><a class = "nav-sub-links" href="#">Resources</a></li>  
+                    </ul>
+                </div>
+                </ul>
             </nav>
             <nav>
             <ul class="nav-items">
                 <li><a class ="nav-links" href="#">Contact Sales</a></li>
                 <li><a class ="nav-links" href="#">Log In</a></li>
-               
                 <li><a class="nav-links nav-cta" href="#">Start for Free</a></li>
             </ul>   
             </nav>
