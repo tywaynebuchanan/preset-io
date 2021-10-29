@@ -2,7 +2,6 @@ document.getElementById("root").innerHTML = `
 
 <div class="container">
     <header class="header">
-
         <a href="#">
             <img src="./img/logo.svg" alt="Logo" class="logo">
         </a>
@@ -44,11 +43,47 @@ document.getElementById("root").innerHTML = `
             </p>
             <a href="#" class="nav-links nav-cta-btn">Start for free</a>
         </div>
-    <div class="hero-img-box">
-        <img src="/img/hp-hero_2x.jpg" alt="" class="hero-img">
+        <div class="hero-img-box">
+            <img src="/img/hp-hero_2x.jpg" alt="" class="hero-img">
+        </div>
+
+    </div>
+</section>
+
+<section class="section-services">
+    <div class="section-text-box">
+        <h1 class="heading-primary">
+            Turn every team into a data team
+        </h1>
+        <p class="content-text">
+            Preset empowers teams of all skill sets to be data driven, unlocking valuable insights with beautiful and interactive visualizations and dashboards
+        </p>
+        <a href="#" class="nav-links nav-cta-btn">Learn about Preset Cloud</a>
+    </div>
+    <div class="info g-2-col">
+        <div class="info-text-box">
+            <img src="/img/hp-screen1_2x.jpg" class = "info-img" alt="">
+            <h2 class="heading-secondary">Zero to dashboard in minutes</h2>
+            <p class="info-text">Quickly build and share beautiful, customized, and dynamic dashboards that showcase your data with just a few clicks.</p>
+        </div>
+        <div class="info-text-box">
+            <img src="/img/hp-screen2_2x.jpg" class = "info-img" alt="">
+            <h2 class="heading-secondary">Easily explore data no matter your skillset</h2>
+            <p class="info-text">Easily explore with our no-code viz builder or run deeper analysis using our state-of-the-art SQL editor.</p>
+        </div>
     </div>
 
-</div>
+    <div class="featured-logos">
+       <img src="/img/airbyte_2x.png" alt="" class="logos">
+       <img src="/img/alltrails_2x.png" alt="" class="logos">
+       <img src="/img/astronomer_2x.png" alt=""class="logos">
+       <img src="/img/dandelion_2x.png" alt=""class="logos">
+       <img src="/img/darwin__x.png" alt="" class="logos">
+       <img src="/img/fumination_2x.png" alt="" class="logos">
+       <img src="/img/now_2x.png" alt="" class="logos logo-1x">
+       <img src="/img/wavely_2x.png" alt="" class="logos">
+    </div>
+
 </section>
 
 
