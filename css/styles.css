@@ -266,3 +266,40 @@ box-shadow: 0px 23px 33px 0px rgba(0,0,0,0.26);
     align-items: center;
     margin: 0 auto;
 }
+
+.text-white{
+    color: white;
+}
+
+/**Section Products***/
+
+.section-products
+{
+    padding: 6.4rem 0;
+    background: rgb(23,126,147);
+background: linear-gradient(180deg, rgba(23,126,147,1) 0%, rgba(25,141,165,1) 100%);
+}
+
+.product-header{
+    margin: 0 auto;
+    max-width: 110rem;
+    text-align: center;
+}
+
+.img-container
+{
+    max-width: 110rem;
+}
+
+.img-product
+{
+    width: 100%;
+    padding-bottom: 4.8rem;
+}
+
+.sub-heading
+{
+    margin-bottom: 4.8rem;
+    text-align: center;
+    font-size: 2rem;
+}

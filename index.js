@@ -86,5 +86,24 @@ document.getElementById("root").innerHTML = `
 
 </section>
 
+<section class="section-products">
+    <div class="product-header">
+        <h1 class="heading-primary text-white">
+            Visualizations for the modern data stack
+        </h1>
+        <p class="content-text text-white">
+            Leverage the investments you have made in your data infrastructure with a lightweight and powerful visualization layer on top. Preset is agnostic to your underlying data architecture and doesn't require an additional ingestion layer.
+        </p>
+        <div class="img-container">
+            <img src="/img/marchitecture-all_2x.png" alt="img-product" class="img-product">
+        </div>
+       
+    </div>
+
+    <p class="sub-heading text-white">
+        <em>Build powerful visualizations and dashboards on top of popular databases and SQL engines</em>.
+    </p>
+</section>
+
 
 `;
