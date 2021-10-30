@@ -32,6 +32,7 @@ body{
 
 .header{
    
+    position: relative;
   height: 6.4rem;
  padding: 1rem 3.2rem;
   display: flex;
