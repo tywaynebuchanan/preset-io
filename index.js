@@ -1,6 +1,9 @@
 document.getElementById("root").innerHTML = `
 
-<div class="container">
+<main>
+
+
+
     <header class="header">
         <a href="#">
             <img src="./img/logo.svg" alt="Logo" class="logo">
@@ -30,7 +33,7 @@ document.getElementById("root").innerHTML = `
             </nav>
        </div>
     </header>
-</div>
+
 
 <section class="section-hero">
     <div class="hero">
@@ -129,5 +132,60 @@ document.getElementById("root").innerHTML = `
    
 </section>
 
+<section class="section-cta">
+    <div class="content-box">
+        <h1 class="heading-primary text-white mb-4">
+            Let’s get visual. Try Preset today.
+        </h1>
+        <a href="#" class="cta-btn">Start for free</a>
+    </div>
+    <div class="image-box">
+        <img src="/img/cta-graph-repeating-fdbcd74a7e1468e15cf301de09a06918.png" alt="" class="graph-img">
+    </div>
+</section>
+</main>
+<footer class="footer">
+    <div class="social-media">
+        <ion-icon name="logo-twitter" class="social-icon"></ion-icon>
+        <ion-icon name="logo-linkedin" class="social-icon"></ion-icon>
+        <ion-icon name="logo-youtube" class="social-icon"></ion-icon>
+    </div>
+
+   <ul class="footer-items">
+       <li><a href="#" class="nav-links">Contact Us</a></li>
+       <li><a href="#" class="nav-links">Status</a></li>
+       <li><a href="#" class="nav-links">Privacy</a></li>
+       <li><a href="#" class="nav-links">Terms</a></li>
+   </ul>
+
+   <p class="copyright">
+    &copy;2021 Preset, Inc., all rights reserved. Apache, Apache Superset, Superset, and the Superset logo are trademarks of the Apache Software Foundation.
+   </p>
+
+</footer>
+
+
 
 `;
+
+//Stick Nav 
+
+const sectionHeroEl = document.querySelector(".section-hero");
+const observer = new IntersectionObserver((entries)=>{
+    const ent = entries[0];
+    if(!ent.isIntersecting)
+    {
+        document.body.classList.add("sticky");
+    }
+
+    if(ent.isIntersecting)
+    {
+        document.body.classList.remove("sticky");
+    }
+    
+},{
+    root:null,
+    threshold: 0,
+    rootMargin: '-80px'
+});
+observer.observe(sectionHeroEl);
