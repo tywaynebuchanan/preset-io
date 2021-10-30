@@ -311,7 +311,7 @@ background: linear-gradient(180deg, rgba(23,126,147,1) 0%, rgba(25,141,165,1) 10
 
 .sub-heading
 {
-    margin-bottom: 4.8rem;
+    margin-bottom: 4rem;
     text-align: center;
     font-size: 2rem;
 }
@@ -347,13 +347,15 @@ background: linear-gradient(180deg, rgba(23,126,147,1) 0%, rgba(25,141,165,1) 10
 {
     width: 110rem;
     margin: 0 auto;
+    display: flex;
+    gap: 4rem;
     
 }
 
 .logos-1
 {
     width: 20rem;
-    margin-bottom: 4rem;
+    margin-bottom: 4.8rem;
 }
 
 .nav-links:visited, .nav-links:link{
@@ -365,9 +367,11 @@ background: linear-gradient(180deg, rgba(23,126,147,1) 0%, rgba(25,141,165,1) 10
 .nav-links.nav_cta:link,.nav-links.nav_cta:visited
 {
     background-color: var(--btncolor);
-    padding: 0.5rem 1rem;
+    padding: 1rem 6rem;
     border-radius: 25px;
     color: var(--fontwhite);
 }
+
+
 
 

@@ -110,7 +110,7 @@ document.getElementById("root").innerHTML = `
        <h1 class="heading-primary">Trust the experts</h1>
        <p class="sub-heading">Preset was founded by the original creator of Apache Superset</p>
    </div>
-   <div class="card-section grid g-3-col">
+   <div class="card-section">
        <div class="card">
            <img src="/img/superset-logo-horiz_2x.png" alt="" class="logos-1">
            <a href="#" class="nav-links nav_cta">Learn more</a>
