@@ -106,7 +106,26 @@ document.getElementById("root").innerHTML = `
 </section>
 
 <section class="section-expert">
-   
+   <div class="section-text-box">
+       <h1 class="heading-primary">Trust the experts</h1>
+       <p class="sub-heading">Preset was founded by the original creator of Apache Superset</p>
+   </div>
+   <div class="card-section grid g-3-col">
+       <div class="card">
+           <img src="/img/superset-logo-horiz_2x.png" alt="" class="logos-1">
+           <a href="#" class="nav-links nav_cta">Learn more</a>
+
+       </div>
+       <div class="card">
+           <p class="sub-heading text-bold">Stay up-to-date with Preset</p>
+        <a href="#" class="nav-links nav_cta">Keep in touch</a>
+       </div>
+
+       <div class="card">
+        <p class="sub-heading text-bold">We believe the future of BI is open source</p>
+        <a href="#" class="nav-links nav_cta">Our founder explain why</a>
+       </div>
+   </div>
    
 </section>
 
