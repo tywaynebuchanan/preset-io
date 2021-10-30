@@ -17,6 +17,7 @@
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -345,8 +346,8 @@ background: linear-gradient(180deg, rgba(23,126,147,1) 0%, rgba(25,141,165,1) 10
     display: flex;
     flex-direction: column;
     background-color: white;
-    width: 100%;
-    height: 100%;
+    width: 33%;
+    height: 33%;
     padding: 9.6rem 6.4rem;
     align-items: center;
     justify-content: center;
@@ -357,10 +358,10 @@ background: linear-gradient(180deg, rgba(23,126,147,1) 0%, rgba(25,141,165,1) 10
 
 .card-section
 {
-    width: 130rem;
-    margin: 0 auto;
+    padding: 2rem;
+    width: 100%;
     display: flex;
-    gap: 4rem;
+    justify-content: space-between;
     
 }
 
