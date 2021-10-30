@@ -123,7 +123,7 @@ document.getElementById("root").innerHTML = `
     
             <div class="card">
                 <p class="sub-heading text-bold">We believe the future of BI is open source</p>
-                <a href="#" class="nav-links nav_cta">Our founder explain why</a>
+                <a href="#" class="nav-links nav_cta">Meet our Founder</a>
             </div>
         </div>
         </div>
